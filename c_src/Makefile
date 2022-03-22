@@ -14,7 +14,7 @@ else
 endif
 
 CXXFLAGS += -DNDEBUG \
-			-g -Wextra -Werror -Wno-missing-field-initializers -fno-exceptions -fno-rtti -std=c++11
+			-g -Wextra -Wno-missing-field-initializers -fno-exceptions -fno-rtti -std=c++11
 
 ifeq ($(UNAME_SYS), darwin)
 	LDFLAGS +=  -Wl,-U,_enif_alloc \
