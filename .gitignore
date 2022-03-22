@@ -1,0 +1,12 @@
+/.idea/
+/.rebar/
+/ebin/
+/erltls_nif.xcodeproj/
+/priv/
+*.DS_Store
+/log/
+*.iml
+/deps/
+/DerivedData/
+/_build/
+/cppcheck_results.xml
